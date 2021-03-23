@@ -293,7 +293,7 @@ justify-content: space-around;
 padding-right: 10px;
 
 background-color: lightgrey;
-margin-bottom: 0px;
+margin-bottom: 10px;
 }
 div.vbox {
 flex: 1 50%;
