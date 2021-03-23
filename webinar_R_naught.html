@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html><head><meta charset="utf-8">
+	<title>Corona Calm A Way Forward Levitt</title><link rel="stylesheet" href="index.css" style="text/css"></head>
+
+<body>
+	<div class="navbar"><ul>
+	
+		<li><a href=step_by_step.html>Behind the Princess</a></li>
+		<li><a href=princess.html>The Diamond Princess</a></li>
+		<li><a href="webinar_R_naught.html">TRANSCRIPTS</a></li>
+		<li><a href=media.html>Dr. Levitt Media</a></li>
+	
+
+	</ul></div>
+
+	<header>TRANSCRIPTS</header>
+	<h2>Webinar Brazil R Naught</h2>
+	
+	<div class="trans">
+		<div class="quote"><blockquote>
+<p><u>Levitt</u>: 
+Everyone is using this word R , I got a simple formula for R, I mean, know how to program computers, how many lines is it to write a program to calculate R? From number of deaths per day, is it an easy calculation or is it a hard calculation?</p></blockquote>
+</div>
+
+<blockquote>
+<p><u>Bhatt</u>: If you use that formula that I sent you...its 1 line of code.</p></blockquote>
+
+<blockquote>
+<p><u>Levitt</u>: It is, I understand, but can I trust thats an approximation, is it 2 points, theres a power of 2.6 
+is that because its a power of “e”? I&#39m tryin to say, using a formula like that is really scary. Do you use that, do you still use that?</p></blockquote>
+
+<blockquote>
+<p><u>Bhatt</u>: No no...</p></blockquote>
+
+<blockquote>
+<p><u>Levitt</u>: What is...I guess what I&#39m saying is, that a serious problem here is, its very easy to calculate the exponential growth rate ratio of today to yesterday, but epidemiologists are using that is very well known because of movies, everyone knows about R zero, but its a very hard calculation to do. I mean can you send me C code or Python code or FORTRAN code to calculate R for a trajectory ?</p></blockquote>
+
+<blockquote>
+<p><u>Bhatt</u>: Theres a lot to unpick there, so please do stop me if I talk too much.  So first of all its not easy to estimate exponentials. There are many pitfalls that many people do. For example fitting to cumulative data gets the variance wrong, you&#39re violating the IID assumption in your...(unintelligabel) number one. Number two, as the seminal paper by Klauscich (?) showed, trying to estimate growth paramater using maximim likelihood is extremely difficult, because its very sensitive small change in the  growth paramater can give you very diff change and many growth can give you the same curve as well. The reproduction number arises from highly theoretical aspects in epidemiology, so it says lets create a stochastic process where one person infects another person and lets look at the generating function of that stochastic process and that were the reproduction number arises, or let&#39s look at compartments of susceptible and recovered and thats where the reproduction arises. 
+<br>
+<br>There are a lot of assumptions baked into this reproduction number, and, things like a uniformly mixed population, completely susceptible population, all these things are in this reproduction number. Its not something thats trivial to calculate, it is something that I think its too focused on because sort of you&#39re trying to create a summary metric for transmission rates, its a rate summary at some point. 
+<br>
+<br>
+And so the equation that I gave you, or  my colleague Jeff gave me, its from the seminal work of Jacco Wallinga and Marc Lipsitch and they take exactly the same approach as we&#39ve done before using a renewal equation or renewal theory they say the early part of an epidemic is exponential growth and based on that assumption the use the moment generating function to basically create the single layer equation
+So if you fit a log linear line and you take the growth parameter from that log linear line then you put into this formula  which is assuming a serial interval distribution of 6.5 days, not 7 point something, which  we could change, then that equation will give you a rough estimate for R naught. But theres so much baked into that assumption just now that I told you that exponential growth  in the early phase and all these other factors, its complicated in our approach we think we have some way, we don&#39t call it the basic reproduction number, we call it the starting  reproduction number, it was the rate at when you started.</p>
+</blockquote>
+
+<p><u>Levitt</u>: Let me ask, theres an R zero but people also have an R of t. I saw many graphs that both...showed and you showed, where there was R varying with time, is that an easy thing to calculate?</p>
+
+<p><u>Bhatt</u>: R zero is supposed to be a situation when, in traditional epidemiology, R zero is just 
+completely mixed, completely susceptible population.</p>
+
+<p><u>Levitt</u>: But what is R of t?</p>
+
+<p><u>Bhatt</u>: R of t is when more people get infected they become susceptible so the reproduction number will go down by itself anyway.</p>
+
+<p><u>Levitt</u>: I understand, but if I have a list of cases as a function of time how do I calculate R of t?</p>
+
+<p><u>Bhatt</u>: You pick a region of your case data that you think is fine and fit your growth rate to that region, essentially trying to get the derivative of your function at each point...</p>
+
+<p><u>Levitt</u>: So your R of t is just the slope of the log number of cases.</p>
+
+<p><u>Bhatt</u>: Well if you&#39re going to use that formula there, we use R of t within this Bayesian semi-mechanistic mechanism,...</p>
+
+<p><u>Levitt</u>: Ok</p>
+
+<p><u>Bhatt</u>: ...so not like that for us, but if you were someone fitting a curve, you would choose an initial part of the data, its a log linear, that rate is your R naught,  then as the curve starts bending the...</p>
+
+<p><u>Levitt</u>: I understand. I guess I&#39m still puzzled by the sociology of using a measure thats hard to calculate, hard to define...for example if I ask you the R of my bank interest you could probably calculate it for me, or what is the R of the dollar interest rate in the market its a time series and I guess you could do that. I guess I&#39m just concerned that something which is essentially describing the way the growth changes as a function of time is so hard to see.</p>
+
+<p><u>Bhatt</u>: Because it comes back to do want something tied back to how we think epidemiology works or do you want something thats just a summary of it.  When you talk about the growth rate in dollars it makes perfect sense in that sense ,when you&#39re talking about R it emerges from fundamental epidemiological theory, and thats why its useful, its useful to calibrate against other diseases, its useful as a summary of the infection process. We call it R, in physics you would call it the critical doubling which you would use for nuclear physics, for neutrons</p>
+
+<p><u>Levitt</u>: Its the same as the critical doubling?</p>
+
+<p><u>Bhatt</u>: Well its similar to that, you have a critical you are either above a threshold of 1 or above a threshold</p>
+
+<p><u>Levitt</u>: But then the ratio of cases today to yesterday also stops at one. I mean many things stop at one. I mean if the number of cases today is the same as yesterday that also stops at one, and its a high number. I guess I&#39m just very puzzled by this opacity which I think has lead to a lot of misunderstandings and you know I can see that within a field, I&#39m in a field that we use Fourier transforms and all kinds of things all the time but, and my simulations involve millions of variables, time series, integrations over long periods but somehow ultimately I&#39ve always said that the key thing is to translate a billion numbers into 3 thousand words maybe a nature of science.</p>
+<br>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
