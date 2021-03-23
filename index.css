@@ -448,6 +448,10 @@ padding-bottom: .3em;
 .main h3 {
 font-family: Courier;
 color: black;
+}
+.main h2 {
+font-family: Courier;
+color: red;
 
 }
 div.highlight {
@@ -481,6 +485,10 @@ div.highlight {
 div.highlight h2 {
 
 	font: normal normal bold semi-expanded 25px/.8em Courier, Helvetica, serif;
+}
+div.highlight h3 {
+
+	font: normal normal bold semi-expanded 16px/.8em Courier, Helvetica, serif;
 }
 
 div.graphic {
