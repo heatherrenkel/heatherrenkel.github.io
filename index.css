@@ -1,0 +1,576 @@
+body {
+font: 16px Courier, serif; 
+		/* font: 15px Arial, sans-serif; */
+    background-color: ivory;
+    padding: 1%;
+    padding-top: 0;
+margin-top: 0;
+
+    /* font: italic normal bold semi-condensed 3em/1.5 Helvetica, Arial, sans-serif; semi-expanded */
+}
+h3  {
+color: red;
+text-align: center;
+}
+h2 {
+	color: red;
+	text-align: center;
+}
+h1 {
+	color: orange;
+	font: 40px Ariel, sans-serif;
+	text-align: center;
+	background-color: brown;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	/* background-size object-fit ? */
+}
+
+.click img {
+	max-width: 40px;
+	max-height: auto;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+.click a:hover {
+	color: #036;
+	background-color: blue;  /* white #fff; */
+	text-decoration: underline;
+}
+p {
+
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 1.5em;
+	color: black;
+}
+
+li {
+	line-height: 1.5em;
+	color: black;
+}
+
+header {
+	font: 26px Arial Black, sans-serif;
+	-webkit-text-stroke: 1px black;
+	color: black;
+	 text-shadow:
+       3px 3px 0 #7df9ff,
+     -1px -1px 0 #7df9ff,  
+      1px -1px 0 #7df9ff,
+      -1px 1px 0 #7df9ff,
+       1px 1px 0 #7df9ff;
+
+	
+	background-color: #00CED1;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-radius-bottom: 0;
+	padding: .5em;
+/* 3vw; font-size: */
+}
+.name {
+font: italic normal bold semi-expanded 30px/1.7em impact, sans-serif;
+	-webkit-text-stroke: 1px black;
+	color: #2C394D;
+	 text-shadow:
+       3px 3px 5px #7df9ff,
+     -1px -1px 5px #7df9ff,  
+      1px -1px 0 #7df9ff,
+      -1px 1px 0 #7df9ff,
+       1px 1px 0 #7df9ff;
+	background-color: #303030;
+	text-align: center;
+	padding: .5em;
+
+	letter-spacing: .05em;
+	word-spacing: .2em;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-radius-top: 0;
+	/* #2C394D licorice color , bluer black */
+}
+
+.banner { /* countdown */
+	font: 20px Arial, sans-serif;
+
+	-webkit-text-stroke: 1px ivory;
+	 color: beige;
+	 text-shadow:
+       3px 3px 0 #333333,   /* middle shifts up */
+     -1px -1px 0 #333333,  /*          shifts up down */
+      1px -1px 0 #333333,   /* left     shifts left rt */
+      1px -1px 0 #333333,   /* rt    blurs */
+      -1px 1px 0 #333333,
+       1px 1px 0 #333333;
+	background-color: salmon;
+	text-align: center;
+	
+	padding: 1em;
+	padding-top: .3em;
+	padding-bottom: .3em;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-radius-top: 0;
+}
+
+	/* div.navbar {
+max-width: 100%;
+height: auto;
+padding: 10px;
+background-color: lightgreen;
+
+} */
+
+div.navbar{
+max-width: 100%;
+height: auto;
+padding: 1px;
+
+justify-content: center;
+border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-radius-bottom: 0;
+
+background-color: lightgreen;
+
+}
+
+.navbar ul {
+	list-style: none;
+	padding-left: 0;
+		max-width: 100%;
+		height: auto;
+		display: flex;
+        flex-flow: row wrap;
+		justify-content: center; /*was start*/
+	align-content: space-around;
+align-items: start;
+
+margin-top: .1em;
+margin-bottom: .1em;
+
+    border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-radius-bottom: 0;
+
+background-color: ivory;
+
+}
+
+div.navbar li {
+
+font: 14px Arial Black, sans-serif;
+flex-grow: 0;  /* fool with this one, aligns left */
+flex-shrink: 1;
+align-self: auto;
+
+align-items: flex-start;
+justify-content: start;
+
+display: inline;
+margin-left: 0em;
+margin-right: 0em;
+/* margin-left: .2em;
+margin-right: .1em;*/
+margin-top: .4em;
+margin-bottom: .1em;
+	
+	padding-right: .1em;
+	padding-left: .1em;
+	max-width: 100%;
+	height: auto;
+
+	background-color: pink;
+	border-radius: 20px;
+	text-align: center;
+
+}
+
+.navbar a {
+background-color: cyan;
+  color: navy;
+  padding: .1em .4em;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+border-radius: 5px;
+border: .5px solid black;
+
+
+}
+.navbar a:hover {
+	color: #036;
+	background-color: pink;  /* white #fff; */
+	text-decoration: underline;
+}
+.navbar a:active {
+	color: black;
+	background-color: red;
+	text-decoration: underline; 
+}
+.navbar a:focus {
+	color: #036;
+	background-color: #fff;
+	text-decoration: underline;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: cyan;
+}
+ .dropbtn {
+  background-color: pink;
+ padding: 1px;
+border-radius: 5px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: purple;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: lime;
+}
+
+.open {
+
+	font: 12px italic, Arial Black, sans-serif;
+	text-align: center;
+	background-color: ivory;
+	margin: .5em;
+	padding: .3em;
+}
+
+div.expbox {
+	text-align: center;
+	display: inline-block;
+}
+
+p.down {
+	font: 18px Courier, serif;
+	color: tomato;
+}
+
+.unit {
+	display: block;
+	float: left;
+	border: 1px solid red;
+	margin-bottom: 10px;
+}
+.box {
+	flex: 1 50%;
+flex-flow: row wrap;
+
+text-align: center;
+display: flex;
+align-items: center;
+
+justify-content: space-around;
+padding-right: 10px;
+
+background-color: lightgrey;
+margin-bottom: 0px;
+}
+div.vbox {
+flex: 1 50%;
+flex-flow: row wrap;
+flex-grow: 1;  /* fool with this one, aligns left */
+flex-shrink: 1;
+
+	display: auto;
+	text-align: center;
+	
+padding-right: 5px;
+padding-left: 5px;
+border: 1px solid blue;
+ background-color: lightblue;
+
+}
+
+a.id
+ {
+	color: pink;
+	border: orange 10px solid;
+}
+
+
+.vid {
+flex-grow: 1;  /* fool with this one, aligns left */
+flex-shrink: 1;
+flex-flow: row wrap;
+position: relative;
+padding-bottom: 56.26%; /*16:9*/
+height: 0;
+}
+
+.vid iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div.box2 {
+flex: 1 50%;
+flex-grow: 1;  /* fool with this one, aligns left */
+flex-shrink: 1;
+/* flex-flow: row wrap;  */
+float: left;
+
+/*float: right;
+clear: left;*/
+
+padding-right: 5px;
+border: 2px solid orange;
+}
+
+.describe {
+
+text-align: center;
+border: 1px solid green;
+background-color: cyan;
+}
+
+div.links {
+
+display: flex-inline; 
+
+max-width: 100%;
+border: 1px solid purple;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+
+padding-left: 2em;
+padding-right: 1em;
+padding-bottom: 2em;
+padding-top: 0;
+font: 14px Arial, sans-serif;
+}
+
+.links ul {
+	font: 14px Arial, sans-serif;
+	list-style-type:none;
+	line-height: 1.3em;
+}
+
+figure.pic {
+	/*max-width: 100%;*/
+	/*display: flex-inline;*/
+	display: flex-wrap;
+	text-align: center;
+	font-style: italic;
+}
+
+figcaption {
+	font-size: 10px;
+}
+
+div.quote {
+	display: flex-wrap;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-align: center;
+}
+
+blockquote {
+	
+	font: 20px Arial, sans-serif;
+	font-style: italic;
+	background-color: beige;
+	border-radius: 25px;
+padding-left: 30px;
+padding-right: 30px;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	line-height: 250%;
+
+}
+
+a {
+
+	color: black;
+	/* 
+	font: 12px Arial, sans-serif; 
+	*/
+}
+
+a:hover {
+	color: blue; /* #036 */
+	background-color: none;
+	text-decoration: underline;
+
+	}
+
+div.main {
+	color: crimson;
+	background-color: beige;
+font: 15px Arial, sans-serif;
+	/* font: 15px Courier, serif; */
+	border-radius: 25px;
+	padding: 1em;
+padding-top: .2em;
+padding-bottom: .3em;
+	
+}
+
+.main p {
+	font-weight: 5em;
+	line-height: 150%;
+	color: black;
+
+	/* color: #505050; */
+}
+.main h3 {
+font-family: Courier;
+color: black;
+
+}
+div.highlight {
+
+	background-color: #99FFDD; /*was */
+	border: 1px solid #1AE6E6;
+	color: #505050;
+	font: normal normal 500 semi-condensed 15px/1.7em Arial, Helvetica, sans-serif;
+	/* font: 20px bold italic, Arial, sans-serif; */
+	border-radius: 25px;
+	padding-top: .001em;
+	padding-bottom: .1em;
+	padding-left: .1em;
+	padding-right: 1.2em;
+	line-height: .5em;
+
+}
+.highlight ul li {
+    padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	line-height: 1.5em;
+}
+.highlight li:first-child{
+    margin-top:0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+div.highlight h2 {
+
+	font: normal normal bold semi-expanded 25px/.8em Courier, Helvetica, serif;
+}
+
+div.graphic {
+
+	margin-left: 0em;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	  font-weight: 700;
+	font: 16px 700, Arial, sans-serif;
+		font-style: italic;
+	/* font: 16px bold italic,  Arial, sans-serif; */
+	color: black; /* 	#202020;  */
+text-align: center;
+	float: left;
+
+background-color: #99FFDD; /* #f88379;#7df9ff */
+padding: 1em;
+
+width: 33%;
+height: auto;
+	border-radius: 30px;
+	line-height: 150%;
+
+/* #f39797 #f5aeae #f8c4c4 lightest https://www.colorhexa.com/f08080
+
+	#f88379 best ; #f08080  #f88370 coraly
+#f8797a  */
+}
+
+div.graphicrt {
+	text-align: center;
+   font-weight: 700;
+	font: 16px 700, Arial, sans-serif;
+	color: #404040; /* try 383838  */
+	font-style: italic;
+	float: right;
+    background-color: #99FFDD; /* #7df9ff ; #00CED1 matches header*/
+/* #00ffff 
+#7df9ff
+
+*/
+padding: 1em;
+width: 34%;
+height: auto;
+	border-radius: 30px;
+	line-height: 150%;
+
+	margin-left: 10px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+script {
+	font: 50px;
+}
+.left-pull {
+}
+
+/*top: 0;
+
+left: 0;
+width: 100%;
+height: 100%;*/
+/*new position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;*/
+
+	/*flex: 1 1 auto;   play with */
+	/* Activate Submenu */
+	/* for tocuch dropdwon event listener 
+
+function toggleItem() {
+  if (this.classList.contains("submenu-active")) {
+    this.classList.remove("submenu-active");
+  } else if (menu.querySelector(".submenu-active")) {
+    menu.querySelector(".submenu-active").classList.remove("submenu-active");
+    this.classList.add("submenu-active");
+  } else {
+    this.classList.add("submenu-active");
+  }
+}
+ 
+/* Event listeners 
+for (let item of items) {
+    if (item.querySelector(".submenu")) {
+      item.addEventListener("click", toggleItem, false);
+    }   
+}
+	*/	
