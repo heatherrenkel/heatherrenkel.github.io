@@ -291,9 +291,11 @@ align-items: center;
 
 justify-content: space-around;
 padding-right: 10px;
+padding-left: 10px;
 
 background-color: lightgrey;
 margin-bottom: 10px;
+margin-top: 10px;
 }
 div.vbox {
 flex: 1 50%;
@@ -345,7 +347,8 @@ float: left;
 /*float: right;
 clear: left;*/
 
-padding-right: 5px;
+padding-right: 10px;
+padding-left: 10px;
 border: 2px solid orange;
 }
 
