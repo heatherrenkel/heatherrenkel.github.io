@@ -399,15 +399,17 @@ div.quote {
 
 blockquote {
 	
-	font: 20px Arial, sans-serif;
+	font: 18px Arial, sans-serif;
 	font-style: italic;
 	background-color: beige;
 	border-radius: 25px;
-padding-left: 30px;
-padding-right: 30px;
+padding-left: 20px;
+padding-right: 20px;
 	padding-top: .2em;
 	padding-bottom: .2em;
 	line-height: 250%;
+	margin-left: 20px;
+	margin-right: 20px;
 
 }
 
