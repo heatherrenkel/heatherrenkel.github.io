@@ -5,6 +5,7 @@ font: 16px Courier, serif;
     padding: 1%;
     padding-top: 0;
 margin-top: 0;
+overflow-x: hidden;
 
     /* font: italic normal bold semi-condensed 3em/1.5 Helvetica, Arial, sans-serif; semi-expanded */
 }
