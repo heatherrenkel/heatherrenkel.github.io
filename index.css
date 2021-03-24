@@ -11,12 +11,12 @@ white-space: nowrap;
     /* font: italic normal bold semi-condensed 3em/1.5 Helvetica, Arial, sans-serif; semi-expanded */
 }
 
-.sources {
+/* .sources {
 max-width: 100%;
 text-overflow: ellipsis;
 overflow-x: hidden;
 white-space: nowrap;	
-}
+} */
 
 h3  {
 color: red;
