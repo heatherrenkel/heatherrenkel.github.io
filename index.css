@@ -5,18 +5,12 @@ font: 16px Courier, serif;
     padding: 1%;
     padding-top: 0;
 margin-top: 0;
-overflow-x: hidden;
-white-space: nowrap;
+
 
     /* font: italic normal bold semi-condensed 3em/1.5 Helvetica, Arial, sans-serif; semi-expanded */
 }
 
-/* .sources {
-max-width: 100%;
-text-overflow: ellipsis;
-overflow-x: hidden;
-white-space: nowrap;	
-} */
+
 
 h3  {
 color: red;
