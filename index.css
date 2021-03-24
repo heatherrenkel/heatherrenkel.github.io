@@ -164,7 +164,7 @@ background-color: ivory;
 
 div.navbar li {
 
-font: 14px Arial Black, sans-serif;
+font: 16px Arial Black, sans-serif;
 flex-grow: 0;  /* fool with this one, aligns left */
 flex-shrink: 1;
 align-self: auto;
