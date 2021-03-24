@@ -503,7 +503,7 @@ div.graphic {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	  font-weight: 700;
-	font: 16px 700, Arial, sans-serif;
+	font: 18px 700, Arial, sans-serif;
 		font-style: italic;
 	/* font: 16px bold italic,  Arial, sans-serif; */
 	color: black; /* 	#202020;  */
@@ -527,7 +527,7 @@ height: auto;
 div.graphicrt {
 	text-align: center;
    font-weight: 700;
-	font: 16px 700, Arial, sans-serif;
+	font: 18px 700, Arial, sans-serif;
 	color: #404040; /* try 383838  */
 	font-style: italic;
 	float: right;
