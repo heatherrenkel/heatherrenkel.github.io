@@ -2,7 +2,7 @@
 <html>
 	<head><meta charset="utf-8">
 		<meta name="author" content="Heather Renkel">
-<meta name="description" content="cruise ship the Diamond Princess Covid-19 data analysis">
+<meta name="description" content="cruise ship the Diamond Princess Dr. Michael Levitt Covid-19 data analysis">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<title>Behind the Princess</title>
 
@@ -16,8 +16,29 @@
 		<li><a href=media.html>Dr. Levitt Media</a></li>
 	</ul>
 	</div>
+	
+<div class="banner">
+ <script>
 
-<!-- <div class="name"><u>The</u> <u> OCEAN</u> <u>UNDERGROUND</u></div>
+	var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+	function countup(yr,m,d){
+	var today=new Date()
+	var todayy=today.getYear()
+	if (todayy < 1000)
+	todayy+=1900
+	var todaym=today.getMonth()
+	var todayd=today.getDate()
+	var todaystring=montharray[todaym]+" "+todayd+", "+todayy
+	var paststring=montharray[m-1]+" "+d+", "+yr
+	var difference=(Math.round((Date.parse(todaystring)-Date.parse(paststring))/(24*60*60*1000))*1)
+	difference+=" "
+	document.write("The World Held Hostage: Day  "+difference+" ")
+	}
+	countup(2020,3,23)
+ </script>
+</div>
+
+
 <div class="quote"><b><i>A Pro-Normal Establishment</i></b></div>  -->
 <div class="open">published: 22 March 2021  ......  last <a href="#updates">updated</a>: 22 March 2021</div>
 
