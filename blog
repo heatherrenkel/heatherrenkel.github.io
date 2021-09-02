@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Heather Renkel">
+        <meta name="description" content="Covid Death">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>blog Covid</title>
+
+	<link rel="stylesheet" href="index.css" style="text/css">
+
+    </head>
+
+<body>
+	<div class="navbar">
+		<ul>
+		<li><a href=index.html>The Diamond Princess</a></li>
+		<li><a href=step_by_step.html>Behind the Princess</a></li>
+		<li><a href=media.html>Dr. Levitt Media</a></li>
+
+		<li><a href=excess.html>EXCESS</a></li>
+	
+		<li><a href=blog.html>blog</a></li>
+		
+		<li><a href=excess_death_age_location.html>Excess_Countries</a></li>	
+		</ul>
+    </div>
+
+<div class="banner">
+ <script>
+/* Count up from any date script-
+By JavaScript Kit (www.javascriptkit.com)
+Over 200+ free scripts here! */
+	var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+	function countup(yr,m,d){
+	var today=new Date()
+	var todayy=today.getYear()
+	if (todayy < 1000)
+	todayy+=1900
+	var todaym=today.getMonth()
+	var todayd=today.getDate()
+	var todaystring=montharray[todaym]+" "+todayd+", "+todayy
+	var paststring=montharray[m-1]+" "+d+", "+yr
+	var difference=(Math.round((Date.parse(todaystring)-Date.parse(paststring))/(24*60*60*1000))*1)
+	difference+=" "
+	document.write("The World Held Hostage: Day  "+difference+" ")
+	}
+	//enter the count up date using the format year/month/day
+	countup(2020,3,23)
+ </script>
+</div>
+
+<div class="name"><u></u> <u> BLOG</u> <u></u></div>
+
+
+<header>BLOG</header>
+
+<div class="open">published:  2 September 2021 2021  ......  last <a href="#updates">updated</a>: 2 September 2021</div>
+
+
+<div class="main"> </div>
+
+
+
+							<h3>USA: All Cause Mortality During the Covid Pandemic Compared to Covid Mortality in the same time period (4 Jan 2020-3 July 2021)</h3>
+ <p>
+ 	Even the most at risk age groups are still 7 times more likely to die from other causes than from Covid.
+ </p>
+ <p>
+ 	<ul>
+	<li>A : Covid Mortality (COVID  Deaths/Population of age group, in %)</li> 
+	<li>B : All Cause Mortality (All Death/Population of age group, in %) </li>
+	<li>C :  All Cause Mortality minus Covid Mortality (Non-Covid Deaths/Population of age group, in %) </li>
+	<li>D : Relative Risk (Covid/All Cause Mortality) </li>
+	<li>E : Equivalent Months of Death  </li>
+	<li>F :  How many times more likely someone is to die from something other than Covid-19. </li>
+
+</p>
+															<img src="US_AC_C19_Mortality_jan-jul21_RR.png">
+ 		
+ <p>
+ 	 SOURCES : <a href="3">Deaths</a> 
+<a href="4">population</a>
+ ; published : 1 Sep 2021
+</p>
+ 
+
+</div>
+
+
+ 										<h1>SOURCES</h1>
+<br>
+<br>
+
+
+
+<a id="1">1. 
+
+<a id="2">2. 
+<a id="3">3. https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Week-Sex-and-Age/vsak-wrfu (ALL CAUSE ALSO)
+<br>
+<br>
+
+<a id="4">4. https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-detail.html 
+
+<br>
+<br>
+
+<a id="5">5. 
+<br> 
+<br>
+<br>
+
+<a id="6">6. 
+<br>
+<br>
+
+<a id="7">7. 
+
+
+	<br>
+	<br>
+
+	<a id="12">12. 
+
+	<br>
+	<br>
+
+	<a id="13">13.
+
+	<br>
+	<br>
+<a id="14">14. 
+
+<a id="15">15.
+<br>
+<br>
+
+<a id="16">16. 
+<br>
+<br>
+<a id="17">17.
+<br>
+<br>
+<a id="18">18.
+<br>
+<br>
+<a id="19">19. 
+<br>
+	<br>
+
+<a id="20">20.
+
+<a id="21">21.	
+<br> 
+<br>
+<a id="22">22. 
+
+<br>
+<br>
+   <a id="23">23.   
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<a id="36">36. 
+<br>
+	<br>
+<br>
+	<br>
+
+<p align="center"><font face="arial" size="-2">script for banner provided free by</font>
+<font face="arial, helvetica" size="-2"><a href="http://javascriptkit.com">JavaScript
+Kit</a></font></p>
+
+</body>
+</html>
