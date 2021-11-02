@@ -10,7 +10,21 @@ margin-top: 0;
     /* font: italic normal bold semi-condensed 3em/1.5 Helvetica, Arial, sans-serif; semi-expanded */
 }
 
-
+.website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+   
+  background-color: #ff4957;
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
 
 h3  {
 color: red;
