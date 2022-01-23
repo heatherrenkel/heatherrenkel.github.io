@@ -9,6 +9,68 @@ margin-top: 0;
 
     /* font: italic normal bold semi-condensed 3em/1.5 Helvetica, Arial, sans-serif; semi-expanded */
 }
+
+.card {
+	color: crimson;
+justify-content: center;
+	background-color: ivory;
+font: 17px Arial, sans-serif;
+	/* font: 15px Courier, serif; */
+	border-radius: 25px;
+	border: black solid 1px;
+	padding: 0em;
+padding-top: 0em;
+padding-bottom: .3em;
+}
+
+.card .open{
+	color: black;
+	background-color: beige;
+font: 15px Courier, serif;
+font-style: italic;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+
+.card h3 {
+color: gray;
+font: 15px Courier, serif;
+}
+
+.card h2 {
+background-color: beige;
+margin: 0px;
+color: black;
+font: 25px Arial, sans-serif;
+border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-radius-bottom: 0px;
+	padding: .5em;
+	padding-bottom: .6em;
+}
+
+.card .title  {
+font-color: red;
+font: 25px Arial, sans-serif;
+font-weight: bold;
+background-color: beige;
+text-align: center;
+border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-radius-bottom: 0;
+	padding: .5em;
+	padding-left: 0em;
+margin: 0px;
+}
+.card p  {
+padding-left: 2em;
+line-height: 1.75;
+padding-right: 1.75em;
+font-family: 'PT Serif';
+}
+
+
+
 h3  {
 color: red;
 text-align: center;
