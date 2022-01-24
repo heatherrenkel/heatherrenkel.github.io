@@ -200,7 +200,6 @@ border-top-left-radius: 20px;
 	border-radius-bottom: 0;
 
 background-color: lightgreen;
-
 }
 
 .navbar ul {
@@ -217,12 +216,11 @@ align-items: start;
 margin-top: .1em;
 margin-bottom: .1em;
 
-    border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-	border-radius-bottom: 0;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-radius-bottom: 0;
 
 background-color: ivory;
-
 }
 
 div.navbar li {
@@ -241,17 +239,14 @@ margin-right: 0em;
 /* margin-left: .2em;
 margin-right: .1em;*/
 margin-top: .4em;
-margin-bottom: .1em;
-	
+margin-bottom: .1em;	
 	padding-right: .1em;
 	padding-left: .1em;
 	max-width: 100%;
 	height: auto;
-
-	background-color: pink;
+	
 	border-radius: 20px;
 	text-align: center;
-
 }
 
 .navbar a {
@@ -262,8 +257,6 @@ background-color: cyan;
   /* text-transform: uppercase; */
 border-radius: 5px;
 border: .5px solid black;
-
-
 }
 .navbar a:hover {
 	color: #036;
