@@ -188,6 +188,19 @@ padding: 10px;
 background-color: lightgreen;
 
 } */
+div.navbarBlog {
+max-width: 100%;
+height: auto;
+padding: 1px;
+
+justify-content: center;
+border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-radius-bottom: 0;
+
+background-color: #303030;
+/* CHANGED bg color fr lightgreen */
+}
 
 div.navbar {
 max-width: 100%;
@@ -220,11 +233,11 @@ border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 border-radius-bottom: 0;
 
-background-color: ivory;
+background-color: #303030;/* CHANGED bg color fr lightgreen 26jan22 */
 }
 
 div.navbar li {
-/* CHANGED font size fr 20px */
+/* CHANGED font size fr 20px 24 jan 22 */
 font: 18px Arial Black, sans-serif;
 flex-grow: 0;  /* fool with this one, aligns left */
 flex-shrink: 1;
