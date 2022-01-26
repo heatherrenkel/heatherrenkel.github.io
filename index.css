@@ -286,45 +286,103 @@ border: .5px solid black;
 	background-color: #fff;
 	text-decoration: underline;
 }
+/* The container <div> - needed to position the dropdown content */
+.social {
+
+/*	position: absolute;
+
+width: 500px;
+ height: 60px;
+    display: flex;
+    align-items: center;
+}
+*/
+}
+.icon {
+padding-top: 5px;
+
+
+}
+.icon img{
+
+  position: relative;
+  display: inline-block;
+   width: 15px;
+
+   height: auto; /*height of box*/
+  padding-top:10px;
+    padding-bottom:10px;
+      padding-right: 10px;
+      padding-left: 10px;
+}
 
 /* The container <div> - needed to position the dropdown content */
+
 .dropdown {
   position: relative;
   display: inline-block;
-
+margin: 0px;
+background-color: #303030;
 }
+
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: cyan;
+  background-color: white;
+  border: black solid 1px;
+  font: 15px Arial, sans-serif;
+
+	
 }
- .dropbtn {
-  background-color: pink;
- padding: 1px;
-border-radius: 5px;
+.dropbtn {
+color: ivory;
+background-color: grey;
+padding: 8px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 10px;
+border: black solid 2px;
+font: 16px Arial, sans-serif;
+font-weight: bold;
+margin: 0px;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-	background-color: purple;
+	background-color: pink;
+  
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
 	display: block;
+
+
 }
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
 	background-color: lime;
+
 }
 
+.dropdown-content ul {  
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+width: 300px;   /* Sets width of dropdown box */ 
+
+}
+.dropdown-content li {
+  border-bottom: red solid 1px;
+}
 .open {
 
 	font: 12px italic, Arial Black, sans-serif;
