@@ -69,7 +69,13 @@ padding-right: 1.75em;
 font-family: 'PT Serif';
 }
 
+.container .social {
+		background-color: black; /*#303030;*/
+width: 100%;
+height: auto;
+    display: flex;
 
+}
 
 h3  {
 color: red;
