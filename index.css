@@ -243,8 +243,8 @@ background-color: #303030;/* CHANGED bg color fr lightgreen 26jan22 */
 }
 
 div.navbar li {
-/* CHANGED font size fr 20px 24 jan 22 ; 18 too small*/
-font: 20px Arial Black, sans-serif;
+/* CHANGED font size fr 20px 24 jan 22*/
+font: 24px Arial Black, sans-serif;
 flex-grow: 0;  /* fool with this one, aligns left */
 flex-shrink: 1;
 align-self: auto;
@@ -357,7 +357,7 @@ padding-left: 10px;
 padding-right: 10px;
 border-radius: 10px;
 border: black solid 2px;
-font: 22px Arial, sans-serif;
+font: 24px Arial, sans-serif;
 font-weight: bold;
 margin: 0px;
 }
@@ -388,7 +388,7 @@ width: 300px;   /* Sets width of dropdown box */
 }
 .dropdown-content li {
   border-bottom: red solid 1px;
-  font: 18px Arial, sans-serif;
+  font: 22px Arial, sans-serif;
 }
 .open {
 
