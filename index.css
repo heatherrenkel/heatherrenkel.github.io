@@ -357,7 +357,7 @@ padding-left: 10px;
 padding-right: 10px;
 border-radius: 10px;
 border: black solid 2px;
-font: 20px Arial, sans-serif;
+font: 22px Arial, sans-serif;
 font-weight: bold;
 margin: 0px;
 }
@@ -388,6 +388,7 @@ width: 300px;   /* Sets width of dropdown box */
 }
 .dropdown-content li {
   border-bottom: red solid 1px;
+  font: 18px Arial, sans-serif;
 }
 .open {
 
