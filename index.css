@@ -144,7 +144,8 @@ header {
 .name {
 font: italic normal bold semi-expanded 30px/1.7em impact, sans-serif;
 	-webkit-text-stroke: 1px black;
-	color: #2C394D;
+	color: #7df9ff;
+	/*color: #2C394D;*/
 	text-shadow:/* 
        3px 3px 5px #7df9ff,
      -1px -1px 5px #7df9ff,  
